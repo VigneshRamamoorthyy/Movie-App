@@ -1,0 +1,58 @@
+.home-container {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.responsive-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input-button-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  height: 34px;
+  width: 90%;
+  border: 1px solid;
+  margin-left: 18px;
+  margin-right: 18px;
+  @media screen and (min-width: 576px) {
+    width: 75%;
+  }
+
+  @media screen and (min-width: 786px) {
+    width: 50%;
+  }
+}
+
+.search-input-field {
+  height: 30px;
+  border: none;
+  width: 75%;
+  outline: none;
+  padding-left: 14px;
+}
+
+.search-button {
+  width: 25%;
+  height: 32px;
+  background-color: #f4f4f4;
+  border: none;
+  border-left: #cccccc 1px solid;
+  cursor: pointer;
+  color: #424242;
+}
+
+.movie-lists {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 100%;
+  border: 2px blue solid;
+  overflow-y: auto;
+}
